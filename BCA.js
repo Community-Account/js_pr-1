@@ -1,4 +1,3 @@
-// [1] Program
 function outer() {
   var a = 10;
   let b = 20;
@@ -20,13 +19,11 @@ function outer() {
 }
 outer();
 
-// [2] Program
+
 const res = () => {
   console.log("Hello");
 };
 res();
-
-// [3] Program
 function fact(n){
     if(n===1) return 1;
     return n * fact(n-1);
@@ -34,7 +31,6 @@ function fact(n){
 const res2 = fact(5);
 console.log(res);
 
-// [4] Program
 function sum(a, b){
     return a + b;
 }
@@ -42,7 +38,7 @@ const res3 = sum(10,20)
 console.log(res);
 console.log(sum(100,200));
 
-// [5 TO 10] Program
+
 const arr = [10, 50, 30, 80, 100, 15];
 console.log("Original Arr: ", arr);
 const arr1 = [100, 200, 300];
@@ -57,7 +53,6 @@ const arr2 = arr.concat(arr1);
 console.log(arr2);
 console.log(arr.join());
 
-// [11 TO 15] Program
 const str = "test12@gmail.com ";
 const str1 = "jhgjhg"
 const str2 = str.concat(str1)
@@ -73,8 +68,6 @@ const test9 = str.slice(1,4)
 const test10 = str.substring(0, 4) + "****";
 const test11 = str.toUpperCase()
 const test12 = str.toLowerCase()
-
-
 console.log(test1);
 console.log(test2);
 console.log(test3);
@@ -87,11 +80,8 @@ console.log(test9);
 console.log(test10);
 console.log(test11);
 console.log(test12);
-
-// [16 TO 20] Program
 const obj  = {id:1, name:"JavaScript", version:20};
 const objStr = JSON.stringify(obj);
-
 console.log(Object.keys(obj));
 console.log(Object.values(obj));
 console.log(JSON.stringify(obj));
